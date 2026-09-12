@@ -16,5 +16,6 @@ function calculateAge(dobString)
     return age;
 }
 
-console.log(calculateAge("1995-12-25")); 
-console.log(calculateAge("2002-03-10"));
+const userInput = prompt("Enter your Date of Birth (Format: YYYY-MM-DD):", "1995-12-25");
+
+alert("Your age is: " + calculateAge(userInput));
